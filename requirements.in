@@ -1,0 +1,7 @@
+# requirements.in
+Pillow
+matplotlib
+PyTorch
+numpy
+opencv-python
+PyTest
