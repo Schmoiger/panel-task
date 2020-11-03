@@ -6,7 +6,11 @@ phases:
       python: latest
   pre_build:
     commands:
-      - pip3 install -r requirements.txt
+      - pip install Pillow
+      - pip install PyTorch
+      - pip install opencv-python
+      - pip install pytest
+      - pip install wget 
   build:
     commands:
       - python -m pytest --junitxml=tests/results.xml

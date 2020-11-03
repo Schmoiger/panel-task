@@ -59,7 +59,7 @@ def get_prediction(img_path, threshold):
     pred_class = pred_class[:pred_t+1]
     return pred_boxes, pred_class
 
-
+'''
 def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_th=3):
     """
     object_detection_api
@@ -87,3 +87,4 @@ def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_t
     plt.xticks([])
     plt.yticks([])
     plt.show()
+'''
