@@ -1,6 +1,7 @@
 __pycache__*
 Icon*
 .git
+.pytest_cache
 **/*.DS_Store
 *_old
 docs
