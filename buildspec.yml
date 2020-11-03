@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+  pre_build:
+    commands:
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - python -m pytest --junitxml=tests/results.xml
+  post_build:
+    commands:
+      - echo 'Build complete'
+
+reports:
+  pytest_reports:
+    files:
+      - results.xml
+    base-directory: tests
+    file-format: JUNITXML
