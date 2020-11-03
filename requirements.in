@@ -5,3 +5,4 @@ PyTorch
 numpy
 opencv-python
 PyTest
+wget
