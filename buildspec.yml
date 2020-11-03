@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.8
+      python: latest
   pre_build:
     commands:
-      - pip3 install -r requirements.txt
+      - pip install -r requirements.txt
   build:
     commands:
       - python -m pytest --junitxml=tests/results.xml
