@@ -1,8 +1,9 @@
 # requirements.in
+# PyTorch must be installed using Homebrew
+# following are used by object_detection_api so not needed
+# matplotlib
+# opencv-python
 Pillow
-matplotlib
-PyTorch
 numpy
-opencv-python
 PyTest
 wget
