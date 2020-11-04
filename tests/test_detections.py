@@ -1,5 +1,6 @@
 import tests.detect_images as detect_images
 import json
+import pytest
 
 
 @pytest.fixture
