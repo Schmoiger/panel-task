@@ -6,7 +6,7 @@ phases:
       python: latest
   pre_build:
     commands:
-      - pip install -r requirements.txt 
+      - pip install -r requirements.txt
   build:
     commands:
       - echo 'Build complete'
@@ -20,3 +20,9 @@ reports:
       - results.xml
     base-directory: tests
     file-format: JUNITXML
+
+artifacts:
+  files:
+    - '**/*'
+  base_directory: base location
+  name: panel-task-artifact
