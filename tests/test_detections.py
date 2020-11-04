@@ -2,17 +2,13 @@ import tests.detect_images as detect_images
 import json
 
 
-def test_prerequisites():
-    try:
-        images = detect_images.parse_images()
-        result_json = detect_images.detect_images(images)
-        prereq_complete = True
-    except:
-        prereq_complete = False
-    assert prereq_complete == True
+@pytest.fixture
+def images_detected(scope="session"):
+    images = parse_images()
+    result_json = detect_images(images)
 
 
-def test_valid_json():
+def test_valid_json(images_detected):
     try:
         r = json.loads(result_json)
         error = False
@@ -21,7 +17,7 @@ def test_valid_json():
     assert error == False
 
 
-def test_confirm_all_processed():
+def test_confirm_all_processed(images_detected):
     if len(images) == len(json.loads(result_json)):
         error = False
     else:
@@ -29,7 +25,7 @@ def test_confirm_all_processed():
     assert error == False
 
 
-def test_at_least_one_result():
+def test_at_least_one_result(images_detected):
     error = False
     for key, value in json.loads(result_json):
         if value == '':
