@@ -1,11 +1,12 @@
 import tests.detect_images as detect_images
 import json
+import pytest
 
 
 @pytest.fixture
 def images_detected(scope="session"):
-    images = parse_images()
-    result_json = detect_images(images)
+    images = detect_images.parse_images()
+    result_json = detect_images.detect_images(images)
 
 
 def test_valid_json(images_detected):
