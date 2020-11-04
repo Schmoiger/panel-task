@@ -12,10 +12,10 @@ phases:
       - pip install wget
   build:
     commands:
-      - python -m pytest --junitxml=results.xml
+      - echo 'Build complete'
   post_build:
     commands:
-      - echo 'Build complete'
+      - python -m pytest --junitxml=tests/results.xml
 
 reports:
   pytest_reports:

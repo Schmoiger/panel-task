@@ -1,8 +1,15 @@
 import tests.detect_images as detect_images
 import json
 
-images = detect_images.parse_images()
-result_json = detect_images.detect_images(images)
+
+def test_prerequisites():
+    try:
+        images = detect_images.parse_images()
+        result_json = detect_images.detect_images(images)
+        prereq_complete = True
+    except:
+        prereq_complete = False
+    assert prereq_complete == True
 
 
 def test_valid_json():
