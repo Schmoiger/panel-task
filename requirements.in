@@ -1,9 +1,8 @@
 # requirements.in
 # PyTorch must be installed using Homebrew
-# also in Amazon's Deep Learning AMI
-
-matplotlib
-opencv-python
+# following are used by object_detection_api so not needed
+# matplotlib
+# opencv-python
 Pillow
 numpy
 PyTest
