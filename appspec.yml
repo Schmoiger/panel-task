@@ -2,4 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/panel-test/raw
+    destination: /home/ec2-user/panel-test
+hooks:
+  AfterInstall:
+    - location: scripts/after_deploy.sh
+      timeout: 300
