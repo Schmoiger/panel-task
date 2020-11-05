@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /BuildArtif/
+  - source: /
     destination: /home/ec2-user/panel-test/raw
