@@ -7,7 +7,6 @@ phases:
   pre_build:
     commands:
       - pip install -r requirements.txt
-      - apt install libgl1-mesa-glx
   build:
     commands:
       - echo 'Build complete'
