@@ -6,7 +6,8 @@ phases:
       python: latest
   pre_build:
     commands:
-      - pip install -r requirements.txt
+      - sudo pip install -r requirements.txt
+      - sudo yum install mesa-libGL-devel
   build:
     commands:
       - echo 'Build complete'

@@ -4,11 +4,11 @@ import torch
 import torchvision
 import torchvision.transforms as T
 import numpy as np
-'''
+
 # following imports are for object_detection_api only
 import matplotlib.pyplot as plt
 import cv2
-'''
+
 
 # get the pretrained model from torchvision.models
 # Note: pretrained=True will get the pretrained weights for the model.
@@ -62,8 +62,6 @@ def get_prediction(img_path, threshold):
     pred_class = pred_class[:pred_t+1]
     return pred_boxes, pred_class
 
-'''
-# no longer using API
 
 def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_th=3):
     """
@@ -92,4 +90,3 @@ def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_t
     plt.xticks([])
     plt.yticks([])
     plt.show()
-'''
