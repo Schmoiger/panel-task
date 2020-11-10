@@ -4,4 +4,6 @@
 # TEST_FOLDER = ./tests/
 # comments have a hash at beginning of line
 
-dog.jpg
+banner-diverse-group-of-people-2.jpg
+10best-cars-group-cropped-1542126037.jpg
+traffic-143391_960_720.jpg
