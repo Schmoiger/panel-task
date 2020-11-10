@@ -4,10 +4,6 @@
 # TEST_FOLDER = ./tests/
 # comments have a hash at beginning of line
 
-https://cdn.pixabay.com/photo/2017/08/30/23/42/football-2698974_960_720.jpg
-https://cdn.pixabay.com/photo/2016/03/21/09/17/ski-run-1270162_960_720.jpg
-https://cdn.londonandpartners.com/assets/73295-640x360-london-skyline-ns.jpg
-https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Epsom_Derby_2012-_Camelot_and_Main_Sequence.jpg/800px-Epsom_Derby_2012-_Camelot_and_Main_Sequence.jpg
 dog.jpg
 https://www.wsha.org/wp-content/uploads/banner-diverse-group-of-people-2.jpg
 https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-cars-group-cropped-1542126037.jpg
