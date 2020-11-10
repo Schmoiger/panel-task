@@ -4,7 +4,7 @@
 # TEST_FOLDER = ./tests/
 # comments have a hash at beginning of line
 
-football-2698974_960_720.jpg
-ski-run-1270162_960_720.jpg
-73295-640x360-london-skyline-ns.jpg
-800px-Epsom_Derby_2012-_Camelot_and_Main_Sequence.jpg
+dog.jpg
+banner-diverse-group-of-people-2.jpg
+10best-cars-group-cropped-1542126037.jpg
+traffic-143391_960_720.jpg
