@@ -5,9 +5,6 @@
 # comments have a hash at beginning of line
 
 dog.jpg
-https://www.wsha.org/wp-content/uploads/banner-diverse-group-of-people-2.jpg
-https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-cars-group-cropped-1542126037.jpg
-https://cdn.pixabay.com/photo/2013/07/05/01/08/traffic-143391_960_720.jpg
-https://cdn.pixabay.com/photo/2016/11/19/10/40/pumpkin-1838545_960_720.jpg
-https://images.unsplash.com/photo-1458169495136-854e4c39548a
-# last one is not a .jpeg!
+banner-diverse-group-of-people-2.jpg
+10best-cars-group-cropped-1542126037.jpg
+traffic-143391_960_720.jpg
